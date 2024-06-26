@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
+    mysql,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    edusity,
+    socialize,
+    dataFinance,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +43,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -54,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Good understanding of DSA",
       icon: creator,
     },
   ];
@@ -72,18 +73,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -97,6 +98,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "mySql",
+      icon: mysql,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -104,14 +109,14 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,30 +203,34 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "edusity",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to know about the university courses which they offer. Site have testimonial, program, about and contact us sections.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "css",
+          color: "pink-text-gradient",
         },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: edusity,
+      source_code_link: "https://github.com/KrishnaBisht2003/edusity",
     },
     {
-      name: "Job IT",
+      name: "Socialize",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A MERN social media application using React.js, Node.js, and MongoDB. Build a Real-World Project with React Hooks, Context API, Node.js REST API, Axios and more.",
       tags: [
         {
           name: "react",
@@ -232,33 +241,41 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: socialize,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Data Finance",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A website for data analyst that help customers to grow there revenue for BTB, BTC, & SASS. It have various plans for customer. It use tailwind and react.",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
+        // {
+        //   name: "nextjs",
+        //   color: "blue-text-gradient",
+        // },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dataFinance,
+      source_code_link: "https://github.com/KrishnaBisht2003/data-finance",
     },
   ];
   

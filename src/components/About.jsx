@@ -53,8 +53,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I&apos;m a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. 
-        I&apos;m a quick learner and collaborate closely with cients to crete efficient, scalable, and user-friendly solutioins that solve real-world problems. 
+        I&apos;m a skilled software developer with experience in Python and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. 
+        I&apos;m a quick learner and collaborate closely with team to create efficient, scalable, and user-friendly solutioins that solve real-world problems. 
         Let&apos;s Workstogether to breing your ideas to life!
       </motion.p>
 

@@ -58,6 +58,7 @@ const ComputersCanvas = ()=> {
 
   return (
     <Canvas
+      className=" pt-32"
       frameLopp = "demand"
       shadows
       camera= {{position: [20, 3, 5], fov: 25}}
@@ -66,6 +67,7 @@ const ComputersCanvas = ()=> {
     
       <Suspense fallback= {<CanvasLoader />} >
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI/2}
           minPolarAngle={Math.PI/2}
