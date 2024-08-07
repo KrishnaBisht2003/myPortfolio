@@ -59,7 +59,7 @@ const ComputersCanvas = ()=> {
   return (
     <Canvas
       className=" pt-32"
-      frameLopp = "demand"
+      frameloop = "demand"
       shadows
       camera= {{position: [20, 3, 5], fov: 25}}
       gl = {{ preserDrawingBuffer: true }}

@@ -20,11 +20,12 @@ const App = () => {
         {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact />
+          <StarsCanvas />
         </div>
-        <StarsCanvas />
       </div>
     </BrowserRouter>
   )
+  
 }
 
 export default App
